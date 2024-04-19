@@ -19,6 +19,7 @@ exports.LoginPage = class LoginPage {
         await this.password_textBox.fill(password)
         await this.login_button.click()
     }
+    
 
 
 }
